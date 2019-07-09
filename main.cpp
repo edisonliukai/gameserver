@@ -1,47 +1,73 @@
-#include "zinx.h"
-#include "ZinxTCP.h"
-#include "ZinxTimer.h"
-#include "GameChannel.h"
 #include <iostream>
-#include "RandomName.h"
+#include <thread>
+#include <mutex>
+#define THREAD_NUM 100
 using namespace std;
+class Singleton
+{
+public:
+    static Singleton *getInstance()
+    {
+        static mutex smMutex ;
+        if(smInstance==nullptr)
+        {
+            smMutex .lock();
+            if(smInstance==nullptr)
+            {
+                smInstance= new Singleton;
+            }
+            smMutex.unlock();
+        }
+        return smInstance;
+    }
+    ~Singleton()
+    {
+        cout<<"singleton destuct"<<endl;
+    }
 
+    class Garbo
+    {
+    public:
+        ~Garbo()
+        {
+            if(smInstance!=nullptr)
+                delete smInstance;
+        }
+    };
 
-//class MyProc : public TimerOutProc
-//{
-//public:
-//	virtual void Proc()
-//	{
-//		//每次超时的时候就执行输出hello world
-//		cout << "Hello World" << endl;
-//	}
-//	virtual int GetTimerSec()
-//	{
-//		//执行每秒超时一次
-//		return 4;
-//	}
-//};
+private:
+    //默认构造
+    Singleton()
+    {
+        cout<<"singleton constuct"<<endl;
+    }
+    Singleton(const Singleton&)=delete;//废掉默认的拷贝构造
+    Singleton(Singleton&&)=delete;//废掉默认的移动构造
+    static Singleton *smInstance;
+    static Garbo g;
+};
+Singleton *Singleton::smInstance=nullptr;
+Singleton::Garbo Singleton::g;
+
+void func(int i)
+{
+    //cout<<"aaa"<<i<<endl;
+    Singleton::getInstance();
+}
 
 int main()
 {
-	//先初始化姓名池子
-	RandomName::getInstance().init();
+    thread *t100[THREAD_NUM];
+    for(int i = 0 ;i<THREAD_NUM;++i)
+    {
+        t100[i] = new thread(func,i);
+    }
+    
+    for(int i = 0 ;i<THREAD_NUM;++i)
+    {
+        t100[i]->join();
+        delete t100[i];
+    }
 
-	ZinxKernel::ZinxKernelInit();
-	//auto timerChannel = new ZinxTimer();
-
-//	MyProc proc;
-//	//注册任务
-//	ZinxTimerDelever::GetInstance().RegisterProcObject(proc);
-
-
-	auto listen = new ZinxTCPListen(8899, new GameChannelFact);
-
-	//ZinxKernel::Zinx_Add_Channel(*timerChannel);
-	ZinxKernel::Zinx_Add_Channel(*listen);
-	ZinxKernel::Zinx_Run();
-	ZinxKernel::ZinxKernelFini();
-
-	return 0;
+    return 0;
 }
-
