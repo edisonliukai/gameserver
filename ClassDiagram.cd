@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="pb::SyncPidDefaultTypeInternal" Collapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::PlayerDefaultTypeInternal" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::SyncPlayersDefaultTypeInternal" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::PositionDefaultTypeInternal" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::MovePackegeDefaultTypeInternal" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::BroadCastDefaultTypeInternal" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAQAAAACAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::TalkDefaultTypeInternal" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::BroadCast" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAIKqAhBiASEHCNBCYAAQAMlAANBgEKSSsCwVAJAiCA=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::MovePackege" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIKAAAiAAEFCNBAYAAQAIDAAMhAEIASMBoRAJAgAA=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::Player" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKqABACAAEFCJAAYAAQAMCAANBgEKASsAgVQJAgDA=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::Position" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIKAQAAAQkFiJgA4KAwAYIAAEFAEIASZBgBXJABAA=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::SyncPid" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKqABACAAEFCJAAYAAQAMAAAFBgAKASoAgFAJAACA=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::SyncPlayers" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIKAAAAEAEFCNQAYAAQAIAAAUDAIIgSIAgBAJAAAA=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pb::Talk" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAKKAABAACEFCJAAYQAQgIgAAMBAAICSMAgBAJAAAA=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AOI_Player" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA=</HashCode>
+      <FileName>AOI_world.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AOI_Grid" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AOI_world.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AOI_world" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QDAAAAAKgAAAAUAAAAAAAAAAgAEAAAAAIAgBBDQAAAI=</HashCode>
+      <FileName>AOI_world.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameChannel" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAAAAAAABACAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>GameChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameChannelFact" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSingleTLV" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAEAAIAAAAAAAAAAAAAAEAAIAACA=</HashCode>
+      <FileName>GameMsg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameMsg" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameMsg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameProtocol" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAgAAAAAAQAAAQAABAAAAQAAAQAAAIAA=</HashCode>
+      <FileName>GameProtocol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameRole" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKBAAAAAQAAABBAAEAAIBQAAkABBAAAA4BBiAQAABQA=</HashCode>
+      <FileName>GameRole.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IZinxMsg" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>zinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AZinxHandler" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAIAAIAAAAAAAAAIAAAAAAAAAAAQ=</HashCode>
+      <FileName>zinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SysIOReadyMsg" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BytesMsg" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>zinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserData" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAA=</HashCode>
+      <FileName>zinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserDataMsg" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAgAA=</HashCode>
+      <FileName>zinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Irole" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEAAAAgAABAAAAAIAAQAAABAAgAAAAACAAAAAAQ=</HashCode>
+      <FileName>zinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iprotocol" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgIAgAAAAAAAAAAAAAABAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>zinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ichannel" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEADAAAAgAQABAAAAAAAAAAgBAAAAENAAiBAABAAQ=</HashCode>
+      <FileName>zinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZinxKernel" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgBIICAAAQCACABKEAAAggCBAAACATgCADoAY=</HashCode>
+      <FileName>zinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZinxTcpData" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAEAAAAAAAAAAAAEAAAoBAAAAAEAACAAABAAA=</HashCode>
+      <FileName>ZinxTCP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IZinxTcpConnFact" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZinxTCP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZinxTCPListen" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAUAAAAAAAAAAAAAAAAAgBAAEQAEAACAAABAIA=</HashCode>
+      <FileName>ZinxTCP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimerOutProc" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIEAAAAAAA=</HashCode>
+      <FileName>ZinxTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZinxTimerDeliver" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAEAEAAAAAABgAAAAAAAEAACAgAAAQ=</HashCode>
+      <FileName>ZinxTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZinxTimer" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAAABAAAAAAAAAAAAAgBAAAQAMAACAAABAAA=</HashCode>
+      <FileName>ZinxTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="protobuf_msg_2eproto::StaticDescriptorInitializer" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="protobuf_msg_2eproto::TableStruct" Collapsed="true">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAQAAAAAAAAAAAgAAABAAAAJAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WheelNode" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZinxTimer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

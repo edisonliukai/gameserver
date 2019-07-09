@@ -1,0 +1,63 @@
+syntax="proto3";
+package pb;
+//无关选项，用于客户端c#指定命名空间
+option csharp_namespace="Pb";
+
+//玩家上线、下线的时候都要发送这个消息
+//告诉玩家，用户id和用户名
+message SyncPid{
+    int32 Pid=1;
+    string Username=2;
+}
+
+//当有位置信息同步的时候发送这个消息
+message Player{
+    int32 Pid=1;
+    Position P=2;
+    string Username=3;
+}
+
+//repeated 表示重复，表示ps不止一个对象，数组
+message SyncPlayers{
+    /*嵌套多个子消息类型Player的消息*/
+    repeated Player ps=1;
+}
+
+//玩家的位置信息结构体，
+message Position{
+    float X=1;
+    float Y=2;
+    float Z=3;
+    float V=4;  //角度
+    int32 BloodValue=5;
+}
+
+message MovePackege{
+    Position P=1;
+    int32 ActionData=2;
+}
+
+//广播消息玩家移动，聊天，出生
+message BroadCast{
+    int32 Pid=1;
+    int32 Tp=2;
+    /*根据Tp不同，BroadCast消息会包含：
+      1 聊天内容（Content）
+      2 初始位置(P)
+      4 新位置P*/
+    //类似c中的union
+    oneof Data {
+        string Content=3;
+        Position P=4;
+        /*ActionData暂时预留*/
+        int32 ActionData=5;
+    }
+    string Username=6;
+}
+
+
+//聊天内容
+message Talk{
+    string Content=1;
+}
+
