@@ -10,7 +10,7 @@ public:
 };
 
 //AOi的一个格子
-class AOI_Grid {
+class AOI_Grid { //游戏世界，将地图划分为多个小格子，每次只把玩家的信息发送给格子内的玩家
 public:
     AOI_Grid(int _gid):iGID(_gid)
     {
